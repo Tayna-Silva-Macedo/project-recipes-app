@@ -4,7 +4,9 @@ Este é um projeto da [Trybe](https://www.betrybe.com/) que foi desenvolvido em 
 
 ## Algumas habilidades exercitadas
 
-  - Utilizar a biblioteca _React-Redux_;
+  - Utilizar _React_ com componentes funcionais;
+  
+  - Utilizar _React Router_ para roteamento dos componentes;
 
   - Utilizar a Context API do _React_ para gerenciar estado;
 
