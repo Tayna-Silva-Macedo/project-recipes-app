@@ -1,0 +1,10 @@
+.scrollmenu {
+  display : flex;
+  flex: 1;
+  margin-bottom: 15px;
+  overflow: scroll;
+}
+
+.scrollmenu img {
+  width: 155px;
+}

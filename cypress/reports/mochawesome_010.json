@@ -1,0 +1,377 @@
+{
+  "stats": {
+    "suites": 7,
+    "tests": 9,
+    "passes": 9,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-07-21T16:38:20.545Z",
+    "end": "2022-07-21T16:38:23.285Z",
+    "duration": 2740,
+    "testsRegistered": 9,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "15d27a41-46be-4eda-b2f3-3237fc8b3ea5",
+      "title": "",
+      "fullFile": "cypress/integration/57-62-profile_spec.js",
+      "file": "cypress/integration/57-62-profile_spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "fdd074e5-412c-44eb-87bc-3b2a8c54fee4",
+          "title": "Profile screen",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "2b41111c-bace-4e8e-a16c-05d9620e20d9",
+              "title": "57 - Implemente os elementos da tela de perfil respeitando os atributos descritos no protótipo",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Todos o data-testid do email e de todos os botões",
+                  "fullTitle": "Profile screen 57 - Implemente os elementos da tela de perfil respeitando os atributos descritos no protótipo Todos o data-testid do email e de todos os botões",
+                  "timedOut": null,
+                  "duration": 411,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.get('[data-testid=\"profile-email\"]');\ncy.get('[data-testid=\"profile-done-btn\"]');\ncy.get('[data-testid=\"profile-favorite-btn\"]');\ncy.get('[data-testid=\"profile-logout-btn\"]');",
+                  "err": {},
+                  "uuid": "796d6c7e-1c11-4e02-9849-80c982c98108",
+                  "parentUUID": "2b41111c-bace-4e8e-a16c-05d9620e20d9",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "796d6c7e-1c11-4e02-9849-80c982c98108"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 411,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "0613eee2-14f5-42fe-ac57-da3575c6ad79",
+              "title": "58 - Implemente a solução de maneira que o e-mail da pessoa usuária deve estar visível",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "O e-mail armazenado em localStorage está visível",
+                  "fullTitle": "Profile screen 58 - Implemente a solução de maneira que o e-mail da pessoa usuária deve estar visível O e-mail armazenado em localStorage está visível",
+                  "timedOut": null,
+                  "duration": 151,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.get('[data-testid=\"profile-email\"]').contains('email@mail.com');",
+                  "err": {},
+                  "uuid": "0a06171c-55dc-4d81-bcf1-548ac7c0d6a8",
+                  "parentUUID": "0613eee2-14f5-42fe-ac57-da3575c6ad79",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "0a06171c-55dc-4d81-bcf1-548ac7c0d6a8"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 151,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "97903707-6f77-4315-a48a-61bb1af07ca0",
+              "title": "59 - Implemente 3 botões: um de nome \"Done Recipes\", um de nome \"Favorite Recipes\" e um de nome \"Logout\"",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "A tela contêm todos os 3 botões",
+                  "fullTitle": "Profile screen 59 - Implemente 3 botões: um de nome \"Done Recipes\", um de nome \"Favorite Recipes\" e um de nome \"Logout\" A tela contêm todos os 3 botões",
+                  "timedOut": null,
+                  "duration": 137,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.get('[data-testid=\"profile-done-btn\"]').contains('Done Recipes');\ncy.get('[data-testid=\"profile-favorite-btn\"]').contains('Favorite Recipes');\ncy.get('[data-testid=\"profile-logout-btn\"]').contains('Logout');",
+                  "err": {},
+                  "uuid": "4475be37-e096-49dd-94a7-6efccff2afb7",
+                  "parentUUID": "97903707-6f77-4315-a48a-61bb1af07ca0",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "4475be37-e096-49dd-94a7-6efccff2afb7"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 137,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "a5331cf8-8fff-4e8d-b59f-b7a239159ede",
+              "title": "60 - Redirecione a pessoa usuária que, ao clicar no botão de \"Done Recipes\", a rota deve mudar para a tela de receitas feitas",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Redireciona para a rota correta",
+                  "fullTitle": "Profile screen 60 - Redirecione a pessoa usuária que, ao clicar no botão de \"Done Recipes\", a rota deve mudar para a tela de receitas feitas Redireciona para a rota correta",
+                  "timedOut": null,
+                  "duration": 238,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.get('[data-testid=\"profile-done-btn\"]').click();\ncy.location().should(loc => expect(loc.pathname).to.eq('/done-recipes'));",
+                  "err": {},
+                  "uuid": "554107c0-7594-4b04-b0d8-395de85f0e05",
+                  "parentUUID": "a5331cf8-8fff-4e8d-b59f-b7a239159ede",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Verifica a cobertura de 45% da tela de Perfil",
+                  "fullTitle": "Profile screen 60 - Redirecione a pessoa usuária que, ao clicar no botão de \"Done Recipes\", a rota deve mudar para a tela de receitas feitas Verifica a cobertura de 45% da tela de Perfil",
+                  "timedOut": null,
+                  "duration": 146,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.task('getCoverage', getId()).its('Profile.functions.pct').should('be.gte', 45.00);\ncy.task('getCoverage', getId()).its('Profile.lines.pct').should('be.gte', 45.00);\ncy.task('getCoverage', getId()).its('Profile.branches.pct').should('be.gte', 45.00);",
+                  "err": {},
+                  "uuid": "a7d33393-e9cb-47d9-843f-bf8356cc3c5c",
+                  "parentUUID": "a5331cf8-8fff-4e8d-b59f-b7a239159ede",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "554107c0-7594-4b04-b0d8-395de85f0e05",
+                "a7d33393-e9cb-47d9-843f-bf8356cc3c5c"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 384,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "e8a7a2ea-d062-427b-a0fb-d9d077575ce7",
+              "title": "61 - Redirecione a pessoa usuária que, ao clicar no botão de \"Favorite Recipes\", a rota deve mudar para a tela de receitas favoritas",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Redireciona para a rota correta",
+                  "fullTitle": "Profile screen 61 - Redirecione a pessoa usuária que, ao clicar no botão de \"Favorite Recipes\", a rota deve mudar para a tela de receitas favoritas Redireciona para a rota correta",
+                  "timedOut": null,
+                  "duration": 211,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.get('[data-testid=\"profile-favorite-btn\"]').click();\ncy.location().should(loc => expect(loc.pathname).to.eq('/favorite-recipes'));",
+                  "err": {},
+                  "uuid": "bf9a29c5-5854-454a-a876-88f5016f1529",
+                  "parentUUID": "e8a7a2ea-d062-427b-a0fb-d9d077575ce7",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "bf9a29c5-5854-454a-a876-88f5016f1529"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 211,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "938fe012-e260-4d89-99b4-834b19ef5e05",
+              "title": "62 - Redirecione a pessoa usuária que ao clicar no botão de \"Logout\", o `localStorage` deve ser limpo e a rota deve mudar para a tela de login",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Limpa todas as chaves da localStorage",
+                  "fullTitle": "Profile screen 62 - Redirecione a pessoa usuária que ao clicar no botão de \"Logout\", o `localStorage` deve ser limpo e a rota deve mudar para a tela de login Limpa todas as chaves da localStorage",
+                  "timedOut": null,
+                  "duration": 244,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.window().then(win => {\n  expect(win.localStorage.getItem('user')).to.eq('{ \"email\": \"email@mail.com\" }');\n  expect(win.localStorage.getItem('mealsToken')).to.eq('1');\n  expect(win.localStorage.getItem('cocktailsToken')).to.eq('1');\n  expect(win.localStorage.getItem('doneRecipes')).to.eq('[]');\n  expect(win.localStorage.getItem('favoriteRecipes')).to.eq('[]');\n  expect(win.localStorage.getItem('inProgressRecipes')).to.eq('{}');\n});\ncy.get('[data-testid=\"profile-logout-btn\"]').click();\ncy.window().then(win => {\n  expect(win.localStorage.getItem('email')).to.be.null;\n  expect(win.localStorage.getItem('mealsToken')).to.be.null;\n  expect(win.localStorage.getItem('cocktailsToken')).to.be.null;\n  expect(win.localStorage.getItem('doneRecipes')).to.be.null;\n  expect(win.localStorage.getItem('favoriteRecipes')).to.be.null;\n  expect(win.localStorage.getItem('inProgressRecipes')).to.be.null;\n});",
+                  "err": {},
+                  "uuid": "b040d5db-ae48-45e5-b712-cf88d9538f8a",
+                  "parentUUID": "938fe012-e260-4d89-99b4-834b19ef5e05",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "A rota muda para a tela de login",
+                  "fullTitle": "Profile screen 62 - Redirecione a pessoa usuária que ao clicar no botão de \"Logout\", o `localStorage` deve ser limpo e a rota deve mudar para a tela de login A rota muda para a tela de login",
+                  "timedOut": null,
+                  "duration": 250,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.get('[data-testid=\"profile-logout-btn\"]').click();\ncy.location().should(loc => expect(loc.pathname).to.eq('/'));",
+                  "err": {},
+                  "uuid": "f746d273-3097-4e28-b02c-4a0358c3e972",
+                  "parentUUID": "938fe012-e260-4d89-99b4-834b19ef5e05",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Verifica a cobertura de 90% da tela de Perfil",
+                  "fullTitle": "Profile screen 62 - Redirecione a pessoa usuária que ao clicar no botão de \"Logout\", o `localStorage` deve ser limpo e a rota deve mudar para a tela de login Verifica a cobertura de 90% da tela de Perfil",
+                  "timedOut": null,
+                  "duration": 144,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.task('getCoverage', getId()).its('Profile.functions.pct').should('be.gte', 90.00);\ncy.task('getCoverage', getId()).its('Profile.lines.pct').should('be.gte', 90.00);\ncy.task('getCoverage', getId()).its('Profile.branches.pct').should('be.gte', 90.00);",
+                  "err": {},
+                  "uuid": "5125b416-90f0-4327-b56b-8852eb271b52",
+                  "parentUUID": "938fe012-e260-4d89-99b4-834b19ef5e05",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "b040d5db-ae48-45e5-b712-cf88d9538f8a",
+                "f746d273-3097-4e28-b02c-4a0358c3e972",
+                "5125b416-90f0-4327-b56b-8852eb271b52"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 638,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
