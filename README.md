@@ -29,4 +29,4 @@ O leiaut desta aplicação foi feito pensando em dispositivos móveis, portanto,
 
 ## Prévia
 
-![Watch the video](./PreviaAppDeReceitasComprimido.mp4)
+https://user-images.githubusercontent.com/99992183/181852911-f299af83-671c-49c7-9689-e149ece3547f.mp4
