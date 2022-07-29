@@ -10,9 +10,9 @@ function ShareButton({ type, id, index }) {
   const clickShare = () => {
     const INTERVAL_TIME = 3000;
     if (type === 'food') {
-      clipboardCopy(`http://localhost:3000/foods/${id}`);
+      clipboardCopy(`https://tayna-silva-macedo.github.io/project-recipes-app/#/foods/${id}`);
     } else {
-      clipboardCopy(`http://localhost:3000/drinks/${id}`);
+      clipboardCopy(`https://tayna-silva-macedo.github.io/project-recipes-app/#/drinks/${id}`);
     }
     setCopied(true);
     setInterval(() => setCopied(false), INTERVAL_TIME);
