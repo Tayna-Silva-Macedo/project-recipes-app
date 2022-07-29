@@ -29,4 +29,4 @@ O leiaut desta aplicação foi feito pensando em dispositivos móveis, portanto,
 
 ## Prévia
 
-![Watch the video](./PreviaAppDeReceitasComprimido.mp4.mp4)
+![Watch the video](./PreviaAppDeReceitasComprimido.mp4)
